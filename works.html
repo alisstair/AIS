@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>кейсы — анна павлова</title>
+<meta name="description" content="кейсы анны павловой: айдентика, интерфейсы и оформление соцсетей">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Martian+Mono:wdth,wght@75..112.5,300..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+
+<a class="skip" href="#contact">к контактам</a>
+
+<!-- на этой странице титула нет, поэтому метка видна сразу -->
+<div class="mark on" id="mark" data-always aria-hidden="true">анна павлова,</div>
+
+<nav class="pages" aria-label="страницы сайта">
+  <a class="chip" href="index.html">обо мне</a>
+  <a class="chip" href="works.html" aria-current="page">кейсы</a>
+</nav>
+
+<main class="stage" id="stage" tabindex="0" aria-label="кейсы: на широком экране листается по горизонтали">
+<div class="track" id="track">
+
+  <section class="panel works" id="works" data-tag="кейсы">
+    <div class="tag">кейсы,</div>
+    <div class="board">
+      <span class="hnd tl"></span><span class="hnd tr"></span><span class="hnd bl"></span><span class="hnd br"></span>
+      <div class="works-head">
+        <h1 class="head">кейсы,</h1>
+        <div class="filters" role="group" aria-label="показать кейсы по направлению">
+          <button class="chip" type="button" data-filter="all" aria-pressed="true">все</button>
+          <button class="chip" type="button" data-filter="uiux" aria-pressed="false">ui/ux</button>
+          <button class="chip" type="button" data-filter="identity" aria-pressed="false">айдентика</button>
+          <button class="chip" type="button" data-filter="social" aria-pressed="false">соцсети</button>
+        </div>
+        <p class="works-count" id="works-count" aria-live="polite">5 работ</p>
+      </div>
+
+      <div class="cards">
+        <article class="card" id="otkrytkovo" data-cat="uiux">
+          <img class="cover" src="images/covers/otkrytkovo.webp" width="840" height="630" alt="открытково: приложение на ноутбуке и телефонах" decoding="async">
+          <p class="kind">01 · ux/ui · 2026</p>
+          <h2 class="card-title">открытково</h2>
+          <p class="note">приложение для обмена бумажными открытками и поиска друзей. на переписку 48 часов, потом чат закрывается.</p>
+          <div class="acts"><a class="btn" href="https://www.figma.com/design/pzdrc9UH5FsaHDVhEQ2NNl/%D0%9E%D1%82%D0%BA%D1%80%D1%8B%D1%82%D0%BA%D0%BE%D0%B2%D0%BE_%D0%98%D0%B3%D0%BD%D0%B0%D1%82%D0%B5%D0%BD%D0%BA%D0%BE--%D0%9F%D0%B0%D0%B2%D0%BB%D0%BE%D0%B2%D0%B0?node-id=0-1&amp;t=KJCcyf1i98yTG69O-1" target="_blank" rel="noopener noreferrer">подробнее в figma <span aria-hidden="true">↗</span></a></div>
+        </article>
+
+        <article class="card" id="la-atmosphere" data-cat="identity">
+          <img class="cover" src="images/covers/la-atmosphere.webp" width="1200" height="900" alt="la atmosphere: билеты в кино в фирменном стиле" decoding="async">
+          <p class="kind">02 · фирменный стиль</p>
+          <h2 class="card-title">la atmosphere</h2>
+          <p class="note">фирменный стиль кинотеатра авторского кино: тёмный зал, красные кресла и свет проектора.</p>
+          <div class="acts"><a class="btn" href="https://www.figma.com/design/BSZJqnVqL7Ms2it0Dg3AVC/la-atmosphere?node-id=0-1&amp;t=HkSPrHNhAdaHbZ2k-1" target="_blank" rel="noopener noreferrer">подробнее в figma <span aria-hidden="true">↗</span></a></div>
+        </article>
+
+        <article class="card" id="udarnik-29" data-cat="identity social">
+          <img class="cover" src="images/covers/udarnik-29.webp" width="1200" height="900" alt="ударник 29: страница сообщества вконтакте на ноутбуке" loading="lazy" decoding="async">
+          <p class="kind">03 · ребрендинг · соцсети</p>
+          <h2 class="card-title">ударник 29</h2>
+          <p class="note">новый стиль сообщества общежития №3 спбгуптд вконтакте: логотип, обложка, посты и кнопки меню.</p>
+          <div class="acts"><a class="btn" href="https://www.behance.net/gallery/236987873/firmennyj-stil-dlja-soc-setej-obschezhitija" target="_blank" rel="noopener noreferrer">подробнее на behance <span aria-hidden="true">↗</span></a></div>
+        </article>
+
+        <article class="card" id="dyhanie" data-cat="identity uiux">
+          <img class="cover" src="images/covers/dyhanie.webp" width="1200" height="900" alt="дыхание: сайт студии йоги на ноутбуке" loading="lazy" decoding="async">
+          <p class="kind">04 · айдентика и сайт</p>
+          <h2 class="card-title">дыхание</h2>
+          <p class="note">айдентика и сайт студии йоги: пастельная палитра вместо бежевой, логотип и запись на занятия.</p>
+          <div class="acts"><a class="btn" href="https://www.figma.com/design/JaX2nKYswh8ixTqs1PLlcs/%D0%A1%D1%82%D1%83%D0%B4%D0%B8%D1%8F-%D0%B9%D0%BE%D0%B3%D0%B8?node-id=0-1&amp;t=x1JdXpMnyChdAQh8-1" target="_blank" rel="noopener noreferrer">подробнее в figma <span aria-hidden="true">↗</span></a></div>
+        </article>
+
+        <article class="card" id="kastry" data-cat="uiux">
+          <img class="cover" src="images/covers/kastry.webp" width="900" height="675" alt="кастры: надпись из спутниковых снимков и даты фестиваля, 10–13 июля 2026" loading="lazy" decoding="async">
+          <p class="kind">05 · сайт фестиваля</p>
+          <h2 class="card-title">кастры</h2>
+          <p class="note">сайт фестиваля 10–13 июля 2026. буквы собраны из спутниковых снимков земли, вокруг — линии рельефа и навигационные метки.</p>
+          <div class="acts"><a class="btn" href="https://www.figma.com/design/CEgVweHTQKCayCAb4XbdCX/%D0%9A%D0%B0%D1%81%D1%82%D1%80%D1%8B?node-id=0-1&amp;t=Wj1rHmyLoEE2YAqq-1" target="_blank" rel="noopener noreferrer">подробнее в figma <span aria-hidden="true">↗</span></a></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="panel essay" id="contact" data-tag="контакты">
+    <div class="tag">контакты,</div>
+    <div class="board">
+      <span class="hnd tl"></span><span class="hnd tr"></span><span class="hnd bl"></span><span class="hnd br"></span>
+      <h2 class="head">напишите,</h2>
+      <ul class="rows">
+        <li>
+          <a href="mailto:pavlanna04@mail.ru">pavlanna04@mail.ru</a>
+          <span class="aside"><button class="btn btn-quiet btn-s" type="button" data-copy="pavlanna04@mail.ru" aria-live="polite">копировать</button>почта</span>
+        </li>
+        <li>
+          <a href="https://t.me/alisstai">@alisstai</a>
+          <span class="aside">телеграм</span>
+        </li>
+      </ul>
+      <p class="sign">беру иллюстрации, айдентику и оформление соцсетей. быстрее всего отвечаю в телеграме.</p>
+    </div>
+  </section>
+
+  <footer class="panel essay foot" id="footer" data-tag="подвал">
+    <div class="tag">подвал,</div>
+    <div class="board">
+      <span class="hnd tl"></span><span class="hnd tr"></span><span class="hnd bl"></span><span class="hnd br"></span>
+      <h2 class="head">о сайте,</h2>
+      <dl class="meta colophon">
+        <dt>нейросеть</dt>
+        <dd>claude opus 5.5 (anthropic) в claude code — нарезка картинок из pdf, вёрстка кейсов, поиск ошибки с прокруткой колесом, перевод вёрстки на mobile first, деление сайта на две страницы. подробности — в <a href="README.md">readme.md</a></dd>
+        <dt>время выполнения</dt>
+        <dd>около 3 часов, 30 сентября — 6 октября 2026</dd>
+        <dt>javascript</dt>
+        <dd>
+          <ul class="js-list">
+            <li>горизонтальная лента: колесо мыши, перетаскивание, стрелки на клавиатуре</li>
+            <li>шкала прогресса с засечками и счётчиком листов</li>
+            <li>фильтр кейсов по направлениям</li>
+            <li>копирование почты в буфер обмена</li>
+            <li>смена раскладки под экран через matchMedia</li>
+          </ul>
+        </dd>
+        <dt>вёрстка</dt>
+        <dd>две страницы — «обо мне» и «кейсы». mobile first: на телефоне колонка, на планшете две колонки карточек, с 960px в ландшафте — горизонтальная лента</dd>
+      </dl>
+      <p class="sign">© 2026, анна павлова · шрифты martian mono и dm mono</p>
+    </div>
+  </footer>
+
+</div>
+</main>
+
+<nav class="scrub" aria-label="положение на странице">
+  <div class="rail" id="rail"><div class="fill" id="fill"></div></div>
+  <div class="count" id="count">01 / 03</div>
+</nav>
+
+</body>
+</html>
